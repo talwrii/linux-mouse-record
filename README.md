@@ -1,5 +1,5 @@
 # Linux mouse record
-<a href="https://x.com/readwithai">@readwithai</a> - <a href="https://x.com/readwith">X</a> - <a href="https://readwithai.substack.com">substack</a> - <a href="https://www.youtube.com/@readerai">youtube</a>
+<a href="https://x.com/readwithai">@readwithai</a> - <a href="https://x.com/readwith">X</a> - <a href="https://readwithai.substack.com">substack</a> - <a href="https://www.youtube.com/@readerai">YouTube</a>
 
 A *simple* command-line tool to record and replay mouse *clicks* on Linux.
 
