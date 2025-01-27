@@ -13,9 +13,7 @@ linux-mouse-replay < recording.jsonl
 
 The recording file is a stream of JSON lines and can be edited by hand.
 
-
-# Turning a recording into a program
-
+# Turning a recording into an executable
 If you place:
 
 ```
@@ -23,6 +21,10 @@ If you place:
 ```
 
 at the beginning of a recording, and make the recording executable with `chmod +x recording.json`  then you can run the recording from the command-line of from you window manager with a shotcut..
+
+# Demo
+![[demo.mp4]]
+
 
 # Motivation
 I wanted to record a click and replay it. I found a lot of apps, but a lot of them were complicated-to-use GUIs, two didn't work, and a bunch weren't really documented.
