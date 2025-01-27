@@ -5,12 +5,13 @@ with open('README.md', encoding="utf-8") as f:
 
 setuptools.setup(
     name='linux-mouse-record',
-    version=0.1,
+    version="2.0",
     author='Read with ai',
     author_email='talwrii@gmail.com',
     long_description_content_type='text/markdown',
     description='Simple CLI to record and replay mouse events',
     install_requires=["pynput"],
+    url="https://github.com/talwrii/linux-mouse-record",
     license='MIT',
     keywords='mouse, LINUX, record',
     packages=["linux_mouse_record"],

@@ -8,12 +8,26 @@ A *simple* command-line tool to record and replay mouse *clicks* on Linux.
 pipx install linux-mouse-record
 linux-mouse-record  > recording.jsonl
 linux-mouse-replay < recording.jsonl
+# You can also use linux-mouse-replay recording.jsonl
 ```
 
 The recording file is a stream of JSON lines and can be edited by hand.
 
+
+# Turning a recording into a program
+
+If you place:
+
+```
+#!/usr/bin/env linux-mouse-replay
+```
+
+at the beginning of a recording, and make the recording executable with `chmod +x recording.json`  then you can run the recording from the command-line of from you window manager with a shotcut..
+
 # Motivation
 I wanted to record a click and replay it. I found a lot of apps, but a lot of them were complicated-to-use GUIs, two didn't work, and a bunch weren't really documented.
+
+This approach will always be be hacky. If you are doing something hard you might like to use a proper form of automation with assestions that check for results. But for something quick and hacky this can work well.
 
 This tool will probably never support additional features you want - unless I need them.
 
