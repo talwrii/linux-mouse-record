@@ -23,7 +23,7 @@ If you place:
 at the beginning of a recording, and make the recording executable with `chmod +x recording.json`  then you can run the recording from the command-line of from you window manager with a shotcut..
 
 # Demo
-![[demo.mp4]]
+![demo](demo.mp4)
 
 
 # Motivation
